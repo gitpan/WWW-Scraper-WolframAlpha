@@ -1,0 +1,31 @@
+---
+abstract: 'Scrape L<WolframAlpha|http://www.wolframalpha.com> and return a result'
+author:
+  - 'Ævar Arnfjörð Bjarmason <avar@cpan.org>'
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110440'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-Scraper-WolframAlpha
+no_index: {}
+requires:
+  Any::Moose: 0
+  JSON::XS: 0
+  URI: 0
+  WWW::Mechanize: 0
+  perl: v5.13.8
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=WWW-Scraper-WolframAlpha
+  homepage: http://search.cpan.org/dist/WWW-Scraper-WolframAlpha/
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/avar/www-scraper-wolframalpha.git
+version: 0.001
+x_authority: cpan:AVAR

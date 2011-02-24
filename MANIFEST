@@ -1,0 +1,12 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+bin/wolframalpha
+dist.ini
+lib/WWW/Scraper/WolframAlpha.pm
+t/00-compile.t
+t/release-pod-syntax.t

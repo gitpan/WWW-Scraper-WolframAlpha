@@ -1,0 +1,22 @@
+NAME
+    WWW::Scraper::WolframAlpha - Scrape WolframAlpha
+    <http://www.wolframalpha.com> and return a result
+
+SYNOPSIS
+        my $wa = WWW::Scraper::WolframAlpha->new;
+
+        say $wa->reply("10 usd to eur");
+
+DESCRIPTION
+    A simple scraper for WolframAlpha for people too lazy to sign up for the
+    API.
+
+AUTHOR
+    Ævar Arnfjörð Bjarmason <avar@cpan.org>
+
+LICENSE AND COPYRIGHT
+    Copyright 2011 Ævar Arnfjörð Bjarmason <avar@cpan.org>
+
+    This program is free software, you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
